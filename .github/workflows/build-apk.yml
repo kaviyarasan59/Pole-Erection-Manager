@@ -23,8 +23,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract project
-        run: unzip Pole_Erection_Material_Android_Project.zip -d project
-
+        run: unzip Pole_Erection_Material_Android_Project_Fixed.zip -d project
       - name: Build APK
         working-directory: project
         run: gradle assembleDebug
